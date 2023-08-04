@@ -8,7 +8,7 @@
 
 ### 2. Склонировать проект и перейти в директорию приложения
 ```
-git clone https://github.com/grozzzny/yii2-docker.git nameApp && cd nameApp
+git clone https://github.com/grozzzny/yii2-docker.git nameApp && cd nameApp && rm -Rf .git
 ```
 
 ### 3. В файле docker/docker-compose.yml можно задать порт:
