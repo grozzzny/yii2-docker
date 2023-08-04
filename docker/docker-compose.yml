@@ -3,7 +3,6 @@ services:
   php:
     platform: linux/amd64
     image: yiisoftware/yii2-php:8.2-fpm-nginx
-    container_name: nameApp
     volumes:
       - ..:/var/www:delegated
       - ./xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini:delegated
